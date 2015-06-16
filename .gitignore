@@ -1,0 +1,8 @@
+# IntelliJ
+*.iml
+*.ipr
+idea/
+
+# Maven build output
+target/
+dependency-reduced-pom.xml

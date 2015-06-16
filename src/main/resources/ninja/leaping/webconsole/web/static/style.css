@@ -1,0 +1,28 @@
+body {
+    background-color: darkcyan;
+    margin: 0 0 0 0;
+}
+nav {
+    text-color: white;
+    text-align: right;
+    width: 100%;
+    margin-top: 0px;
+    background-color: black;
+}
+
+main {
+    background-color: white;
+    text-decoration: line-through;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    min-width: 180px;
+}
+
+#console {
+    font-family: monospace;
+    min-height: 320px;
+    max-height: 800px;
+    overflow-y: scroll;
+
+}
