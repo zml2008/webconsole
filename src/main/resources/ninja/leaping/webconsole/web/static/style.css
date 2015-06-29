@@ -1,28 +1,132 @@
-body {
-    background-color: darkcyan;
-    margin: 0 0 0 0;
+
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
+
+
+html, body {
+    margin: 0px;
+    padding: 0px;
 }
-nav {
-    text-color: white;
-    text-align: right;
-    width: 100%;
-    margin-top: 0px;
-    background-color: black;
+html {
+    height: 100%;
+}
+body {
+    background-color: #DDD;
+    background-color: #C86971;
 }
 
+
+nav {
+    text-align: right;
+    background-color: #663D41;
+    height: 70px;
+    line-height: 70px;
+    padding-right: 50px;
+
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+
+}
+    nav ul {
+        margin: 0px;
+        list-style-type: none;
+    }
+
+        nav ul li {
+            display: inline-block;
+            padding-right: 50px;
+        }
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: "Roboto", helvetica, arial, sans-serif;
+            }
+            nav ul li a:hover {
+                color: #CCC;
+            }
+
+
 main {
-    background-color: white;
-    text-decoration: line-through;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+
+    padding-top: 70px;
+    padding-top: 10vh;
+    max-width: 900px;
     min-width: 180px;
+    height: 100%;
 }
+
 
 #console {
-    font-family: monospace;
-    min-height: 320px;
-    max-height: 800px;
-    overflow-y: scroll;
+    border-radius: 3px;
 
+    background-color: rgba(255, 255, 255, 0.95);
+    overflow-y: auto;
+    padding: 24px;
+
+    max-height: 60vh;
+    min-height: 300px;
+
+
+    -webkit-box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.25);
 }
+    #console .line {
+        overflow: hidden;
+        margin-bottom: 8px;
+    }
+        .line-prompt, .line-content, .line-content textarea {
+            font-size: 13px;
+            font-family: "Inconsolata", monospace;
+            color: #777;
+        }
+        .line-prompt {
+            float: left;
+            width: 24px;
+            color: #222;
+        }
+        .line-content {
+            margin-left: 24px;
+            overflow: hidden;
+        }
+            .line-content textarea {
+                background: none;
+                border: none;
+                padding: 0px;
+                outline: none;
+                width: 100%;
+                resize: none;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* asdf */

@@ -1,7 +1,17 @@
 {{< base }}
 {{$ content }}
 <div id="console">
-    Warning: If you are seeing this, it means that javascript is not enabled! This console cannot work without javascript
-</div>
+    <div class='line'>
+        <div class='line-prompt'>&gt;</div>
+        <div class='line-content'>Warning: If you are seeing this, it means that javascript is not enabled! This console cannot work without javascript.</div>
+    </div>
+
+    <!-- Input Line -->
+    <div class='line input-line'>
+        <div class='line-prompt'>&gt;&nbsp;&nbsp;&nbsp;</div>
+        <div class='line-content'>
+            <textarea></textarea>
+        </div>
+    </div>
 {{/content }}
 {{/base}}
